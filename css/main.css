@@ -133,11 +133,10 @@ h5{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 2rem 0;
 }
 
 header{
-    padding: 10px 0;
     background-color: #3161e0;
 }
 
@@ -198,7 +197,7 @@ header{
 }
 
 .col{
-    padding: 5rem;
+    padding: 5rem 4rem;
 }
 
 .call{
@@ -237,11 +236,17 @@ footer h3, footer h5{
 
 .f-top{
     display: flex;
-    padding-bottom: 30px;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #7289DA;
+    width: 100%;
+}
+
+.f-top a{
+    padding: 0.5rem 1rem 0.5rem 0;
 }
 
 .foothead{
-    min-width: 30%;
+    max-width: 30%;
     padding-right: 3rem;
 }
 
@@ -258,27 +263,12 @@ footer h3, footer h5{
 
 .footlinks{
     display: flex;
-    flex-grow: 1;
+    width: 60%;
     font-size: 0.8rem;
+    padding: 0 4rem;
+    flex-grow: 1;
 }
 
 .list{
     flex-grow: 1;
-}
-
-hr{
-    color:#68696B;
-}
-
-.f-down{
-    margin-top: 20px;
-    padding: 20px 0;
-    background-color: #7FFFD4;
-}
-
-button{
-    border-radius: none;
-    border: var(--bordo);
-    padding: 5px;
-    background-color: #ffb6c1;
 }
