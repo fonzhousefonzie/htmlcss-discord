@@ -1,7 +1,11 @@
-svg{
+/* First Bonus */
+
+svg.wave-1hkxOo{
     color: #F6F6F6;
     display: block;
 }
+
+/* Second Bonus */
 
 a:hover{
     text-decoration: underline;
@@ -31,4 +35,101 @@ a:hover{
 
 .tertiary:hover{
     background-color: #b3c3fc;
+}
+
+/* Third Bonus */
+
+svg.logo-img{
+    color: #5865F2;
+}
+
+.page-header{
+    background-color: #fff;
+}
+
+.page-header .menu{
+    flex-grow: 0;
+}
+
+.page-header a{
+    color: #5865F2;
+    font-size: 1rem;
+}
+
+input[type="text"]{
+    min-height: 2.5rem;
+    border-radius: 2rem;
+    border: 1px solid black;
+    padding: 1rem 3rem;
+    background-color: #fff;
+    background-image: url(../img/search-icon.svg);
+    background-position: 1rem center;
+    background-size: auto 50%;
+    background-repeat: no-repeat;
+    font-size: 1.2rem;
+}
+
+::placeholder{
+    color: lightgray;
+}
+
+.bg-lightgray{
+    background-color: lightgray;
+}
+
+h4{
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.blue-link{
+    color: #5865F2;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 1rem 3rem;
+    max-width: 1350px;
+    margin: auto;
+}
+
+.grid-cell{
+    max-height: 270px;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 250px;
+    text-align: center;
+    color: darkslategrey;
+    cursor: pointer;
+}
+
+.grid-cell img{
+    max-height: 100px;
+}
+
+.grid-cell h4{
+    color:#5865F2;
+    padding: 1rem;
+}
+
+.grid-cell hr{
+    width: 30%;
+}
+
+.grid-cell:hover{
+    transform: translateY(-0.5rem);
+}
+
+.help{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 2rem;
 }
